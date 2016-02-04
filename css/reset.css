@@ -1,0 +1,79 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, p, blockquote, button, th, td, textarea, input {
+    margin: 0;
+    padding: 0;
+}
+hr, legend, caption {
+    display: none;
+}
+img, fieldset {
+    border: 0 none;
+}
+body, h1, h2, h3, h4, h5, dl, dt, dd, th, td, p, form, fieldset, legend, input, select, div, span {
+    color: #666;
+    font-family: arial, HelveticaNeue, DroidSans, Sans-serif, Helvetica;
+    font-size: 15px;
+    font-weight: normal;
+	letter-spacing:0px;
+}
+ul, ol, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    text-decoration: none;
+    vertical-align: baseline;
+}
+img, input, select, textarea, label {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    text-decoration: none;
+    vertical-align: baseline;
+    
+}
+input, td {
+    font-family: arial;
+    font-size: 12px;
+}
+body, th, td {
+    font-size: 12px;
+}
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    text-decoration: none;
+    vertical-align: baseline;
+}
+html {
+    height: 100%;
+}
+textarea {
+    color: #666;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: normal;
+}
+body { 
+    width:100%;
+    height:100%;
+}
+.chn {
+    font-family: "Tahoma","Simsun","Dotum" !important;
+}
+
+header,nav,section,footer,aside,article { 
+    display:block; 
+}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+
+

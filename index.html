@@ -1,0 +1,512 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title> THE NEWS REPORTER </title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" type="text/css" href="css/ie.css"/>
+    <![endif]-->
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+   <div id="bg_Wrap">
+        <div id="wrap">
+            <div id="header">
+                <h1>
+                    <a href="#" title="THE NEWS REPORTER LOGO">THE NEWS REPORTER</a>
+                </h1>
+                <div id="header_sns">
+                    <a class="sns_link" href="#" title="트위터">
+                        <img src="img/twitter.gif" alt="트위터"/>
+                    </a>
+                    <a class="sns_link" href="#">
+                        <img src="img/facebook.gif" alt="페이스북"/>
+                    </a>
+                    <a class="sns_link" href="#" title="RSS">
+                        <img src="img/rss.gif" alt="RSS"/>
+                    </a>
+                    <a class="flike_link" href="#" title="페이스북 좋아요">
+                        <img src="img/f_like.gif" alt="페이스북 좋아요"/>
+                    </a>
+                    <div class="likebox">
+                        <span>6</span>
+                    </div>
+                    <a class="glike_link" href="#" title="구글 좋아요">
+                        <img src="img/google+.gif" alt="구글 좋아요"/>
+                    </a>
+                    <div class="likebox">
+                        <span>3</span>
+                    </div>
+                </div>
+                <div id="header_inner">
+                    <div class="header_innerwrap">
+                        <ul>
+                            <li>
+                                <a href="#" title="Home">Home</a>
+                            </li>
+                            <li>
+                                <a href="#" title="About Us">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#" title="Contact Us">Contact Us</a>
+                            </li>
+                            <li>
+                                <a href="#" title="Subscribe">Subscribe</a>
+                            </li> 
+                            <li>
+                                <a href="#" title="Login">Login</a>
+                            </li>
+                        </ul>
+                        <div class="searchbar">
+                            <input type="text" id="search" title="뉴스검색"/>
+                            <button class="ico_search" type="submit">
+                                <span>검색</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div id="Gnb">
+                    <ul>
+                        <li>
+                            <a href="#" title="WORLD NEWS">WORLD NEWS</a>
+                        </li>
+                        <li>
+                            <a href="#" title="SPORTS">SPORTS</a>
+                        </li>
+                        <li>
+                            <a href="#" title="TECH">TECH</a>
+                        </li>
+                        <li>
+                            <a href="#" title="BUSINESS">BUSINESS</a>
+                        </li>
+                        <li>
+                            <a href="#" title="MOVIES">MOVIES</a>
+                        </li>
+                        <li>
+                            <a href="#" title="ENTERTAINMENT">ENTERTAINMENT</a>
+                        </li>
+                        <li>
+                            <a href="#" title="CULTURE">CULTURE</a>
+                        </li>
+                        <li>
+                            <a href="#" title="BOOKS">BOOKS</a>
+                        </li>
+                        <li>
+                            <a href="#" title="CLASSIFIEDS">CLASSIFIEDS</a>
+                        </li>
+                        <li>
+                            <a href="#" title="BLOGS">BLOGS</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="content">
+                <div id="article">
+                    <!--Thumb Nail-->
+                    <div id="thumbnail">
+                        <div id="TN_main">
+                            <ul>
+                                <li>
+                                    <a id="TNMain" href="#" title="news link">
+                                        <img src="img/breaking_01.jpg" alt="news photo"/>
+                                    </a>
+                                    <a id="TN_main_txt" href="#" title="news link">
+                                        <span>Lorem ipsum dolor sit amet, consectetur Nulla quis lorem neque, mattis venenatis lectus.</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="TN_list">
+                            <ul>
+                                <li>
+                                    <a href="#" title="breaking news list" onclick="return false;"><img class="active" src="img/breaking_01.jpg" alt="news list"/></a>
+                                </li>
+                                <li>
+                                    <a href="#" title="breaking news list" onclick="return false;"><img src="img/breaking_02.jpg" alt="news list"/></a>
+                                </li>
+                                <li>
+                                    <a href="#" title="breaking news list" onclick="return false;"><img src="img/breaking_03.jpg" alt="news list"/></a>
+                                </li>
+                                <li>
+                                    <a href="#" title="breaking news list" onclick="return false;"><img src="img/breaking_04.jpg" alt="news list"/></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="TN_box">
+                            <img src="img/breaking.gif" alt="breaking news"/>
+                        </div>
+                    </div>
+                    <!--Article Left-->
+                    <div id="article_left">
+                        <!--FROM AROUND THE WORLD-->
+                        <div class="article_L_inner">
+                            <h3>FROM AROUND THE WORLD</h3>
+                            <a class="morebtn" href="#" title="more"><img src="img/more.gif" alt="more"/></a>
+                            <div class="news_list">
+                                <a href="#" title="news link">
+                                    <img src="img/from01.gif" alt="news img"/><br/>
+                                    <strong>Lorem ipsum dolor sit amet, consectetur</strong>
+                                    <span class="news_text">Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</span>
+                                </a>
+                                <p>
+                                    <a class="read_more" href="#" title="read more"><span>READ MORE</span></a>
+                                </p>
+                            </div>
+                            <div class="news_list N_L_C">
+                                <a href="#" title="news link">
+                                    <img src="img/from02.gif" alt="news img"/><br/>
+                                    <strong>Lorem ipsum dolor sit amet, consectetur</strong>
+                                    <span class="news_text">Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</span>
+                                </a>
+                                <p>
+                                    <a class="read_more" href="#" title="read more"><span>READ MORE</span></a>
+                                </p>
+                            </div>
+                            <div class="news_list">
+                                <a href="#" title="news link">
+                                    <img src="img/from03.gif" alt="news img"/><br/>
+                                    <strong>Lorem ipsum dolor sit amet, consectetur</strong>
+                                    <span class="news_text">Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</span>
+                                </a>
+                                <p>
+                                    <a class="read_more" href="#" title="read more"><span>READ MORE</span></a>
+                                </p>
+                            </div>
+                        </div>
+                        <!--LSTEST ARTICLES-->
+                        <div class="article_L_inner">
+                            <h3>LATEST ARTICLES</h3>
+                            <a class="morebtn" href="#" title="more"><img src="img/more.gif" alt="more"/></a>
+                            <div class="news_list">
+                                <a href="#" title="news link">
+                                    <img src="img/latest01.gif" alt="news img"/><br/>
+                                    <strong>Lorem ipsum dolor sit amet, consectetur</strong>
+                                    <span class="news_text">Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</span>
+                                </a>
+                                <p>
+                                    <a class="read_more" href="#" title="read more"><span>READ MORE</span></a>
+                                </p>
+                            </div>
+                            <div class="news_list N_L_C">
+                                <a href="#" title="news link">
+                                    <img src="img/latest02.gif" alt="news img"/><br/>
+                                    <strong>Lorem ipsum dolor sit amet, consectetur</strong>
+                                    <span class="news_text">Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</span>
+                                </a>
+                                <p>
+                                    <a class="read_more" href="#" title="read more"><span>READ MORE</span></a>
+                                </p>
+                            </div>
+                            <div class="news_list">
+                                <a href="#" title="news link">
+                                    <img src="img/latest03.gif" alt="news img"/><br/>
+                                    <strong>Lorem ipsum dolor sit amet, consectetur</strong>
+                                    <span class="news_text">Nulla quis lorem neque, mattis venenatis lectus. In interdum ullamcorper dolor eu mattis.</span>
+                                </a>
+                                <p>
+                                    <a class="read_more" href="#" title="read more"><span>READ MORE</span></a>
+                                </p>
+                            </div>
+                        </div>
+                        <!--GALLERY-->
+                        <div class="article_L_inner">
+                            <h3>GALLERY</h3>
+                            <a class="morebtn" href="#" title="more"><img src="img/more.gif" alt="more"/></a>
+                            <div class="gallery_list">
+                                <ul>
+                                    <li>
+                                        <a href="#" title="gallery link">
+                                            <img src="img/gallery01.gif" alt="gallery img"/>
+                                        </a>
+                                    </li>
+                                    <li class="G_L_C">
+                                        <a href="#" title="gallery link">
+                                            <img src="img/gallery02.gif" alt="gallery img"/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="gallery link">
+                                            <img src="img/gallery03.gif" alt="gallery img"/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="gallery link">
+                                            <img src="img/gallery04.gif" alt="gallery img"/>
+                                        </a>
+                                    </li>
+                                    <li class="G_L_C">
+                                        <a href="#" title="gallery link">
+                                            <img src="img/gallery05.gif" alt="gallery img"/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="gallery link">
+                                            <img src="img/gallery06.gif" alt="gallery img"/>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--TECH NEWS-->
+                        <div class="article_L_inner">
+                            <h3>TECH NEWS</h3>
+                            <a class="morebtn" href="#" title="more"><img src="img/more.gif" alt="more"/></a>
+                            <div class="techNews_list">
+                                <ul>
+                                    <li class="dotted">
+                                        <a href="#" title="news link">
+                                            <strong>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</strong>
+                                            <span class="text_over">
+                                                <span>Nulla quis lorem neque, mattis venenatis<br/> lectus. In interdum ullamcorper dolor eu mattis.</span><br/>
+                                                by <span class="red_txt">John Doe</span> ｜ <span class="comments">29 comments</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="T_L_C dotted">
+                                        <a href="#" title="news link">
+                                            <strong>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</strong>
+                                            <span class="text_over">
+                                                <span>Nulla quis lorem neque, mattis venenatis<br/> lectus. In interdum ullamcorper dolor eu mattis.</span><br/>
+                                                by <span class="red_txt">John Doe</span> ｜ <span class="comments">29 comments</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="news link">
+                                            <strong>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</strong>
+                                            <span class="text_over">
+                                                <span>Nulla quis lorem neque, mattis venenatis<br/> lectus. In interdum ullamcorper dolor eu mattis.</span><br/>
+                                                by <span class="red_txt">John Doe</span> ｜ <span class="comments">29 comments</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="T_L_C">
+                                        <a href="#" title="news link">
+                                            <strong>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</strong>
+                                            <span class="text_over">
+                                                <span>Nulla quis lorem neque, mattis venenatis<br/> lectus. In interdum ullamcorper dolor eu mattis.</span><br/>
+                                                by <span class="red_txt">John Doe</span> ｜ <span class="comments">29 comments</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Article Right-->
+                    <div id="article_right">
+                        <!--FROM THE DESK-->
+                        <div class="article_R_inner">
+                            <h3>FROM THE DESK</h3>
+                            <div class="fromdesk_list">
+                                <ul>
+                                    <li class="dotted">
+                                        <a href="#" title="from the desk news link">
+                                            <strong>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</strong>
+                                            <span class="news_txt">Null quis lorem neque, mattis venen atis lectus. In interdum ull amcorper dolor eu mattis.</span>
+                                            <span class="red_txt desk_txt">READ MORE</span><span class="time"> 3 hours ago</span>
+                                        </a>
+                                    </li>
+                                    <li class="dotted">
+                                        <a href="#" title="from the desk news link">
+                                            <strong>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</strong>
+                                            <span class="news_txt">Null quis lorem neque, mattis venen atis lectus. In interdum ull amcorper dolor eu mattis.</span>
+                                            <span class="red_txt desk_txt">READ MORE</span><span class="time"> 3 hours ago</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="from the desk news link">
+                                            <strong>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</strong>
+                                            <span class="news_txt">Null quis lorem neque, mattis venen atis lectus. In interdum ull amcorper dolor eu mattis.</span>
+                                            <span class="red_txt desk_txt">READ MORE</span><span class="time"> 3 hours ago</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <a href="#" title="more"><img src="img/more.gif" alt="more"/></a>
+                            </div>
+                        </div>
+                        <!--EDITORIAL-->
+                        <div class="article_R_inner editorial">
+                            <h3>EDITORIAL</h3>
+                            <div class="editorial_list">
+                                <ul>
+                                    <li>
+                                        <a href="#" title="editorial link">
+                                            <img src="img/editorial01.gif" alt="editorial img"/>
+                                            <span class="editorial_txt">Lorem ipsum dolor sit amet conse cte tur adipiscing elit</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="editorial link">
+                                            <img src="img/editorial02.gif" alt="editorial img"/>
+                                            <span class="editorial_txt">Lorem ipsum dolor sit amet conse cte tur adipiscing elit</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="editorial link">
+                                            <img src="img/editorial03.gif" alt="editorial img"/>
+                                            <span class="editorial_txt">Lorem ipsum dolor sit amet conse cte tur adipiscing elit</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="editorial link">
+                                            <img src="img/editorial04.gif" alt="editorial img"/>
+                                            <span class="editorial_txt">Lorem ipsum dolor sit amet conse cte tur adipiscing elit</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--ASIDE-->
+                <div id="aside">
+                    <div class="news_video">
+                        <ul>
+                            <li>
+                                <a href="#" title="news video">
+                                    <img src="img/play.gif" alt="video"/>
+                                    <span>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="news video">
+                                    <img src="img/play.gif" alt="video"/>
+                                    <span>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="news video">
+                                    <img src="img/play.gif" alt="video"/>
+                                    <span>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="news video">
+                                    <img src="img/play.gif" alt="video"/>
+                                    <span>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <a id="movie_morebtn" href="#" title="more"><img src="img/more.gif" alt="more"/></a>
+                    </div>
+                    <div id="top_banner">
+                        <a href="#" title="Alberta Film banner link">
+                            <img src="img/banner.gif" alt="alberta film banner"/>
+                        </a>
+                    </div>
+                    <div id="member">
+                        <p class="member_txt">
+                            <strong>SIGN UP FOR NEWSLETTER</strong><br/>
+                            <span>Sign up to receive our free newsletters!</span>
+                        </p>
+                        <input id="username" name="username" type="text"/>
+                        <input id="useremail" name="useremail" type="text"/>
+                        <input id="submitbtn" name="submitbtn" type="submit" value="SUBMIT"/>
+                        <p class="spam_txt">
+                            <span>We do not spam. We value your privacy!</span>
+                        </p>
+                    </div>
+                    <div class="popular">
+                        <h3>POPUAR</h3>
+                        <strong>MOST READ</strong>
+                        <div class="popular_list">
+                            <ul>
+                                <li class="dotted">
+                                    <a href="#" title="news link">
+                                        <span>sept 24th 2011</span><br/>
+                                        <strong>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</strong><span class="red_txt">READ MORE</span>
+                                    </a>
+                                </li>
+                                <li class="dotted">
+                                    <a href="#" title="news link">
+                                        <span>sept 24th 2011</span><br/>
+                                        <strong>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</strong><span class="red_txt">READ MORE</span>
+                                    </a>
+                                </li>
+                                <li class="dotted">
+                                    <a href="#" title="news link">
+                                        <span>sept 24th 2011</span><br/>
+                                        <strong>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</strong><span class="red_txt">READ MORE</span>
+                                    </a>
+                                </li>
+                                <li class="dotted">
+                                    <a href="#" title="news link">
+                                        <span>sept 24th 2011</span><br/>
+                                        <strong>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</strong><span class="red_txt">READ MORE</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" title="news link">
+                                        <span>sept 24th 2011</span><br/>
+                                        <strong>Lorem ipsum dolor sit amet conse ctetur adipiscing elit</strong><span class="red_txt">READ MORE</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <a href="#" title="more"><img src="img/more.gif" alt="more"/></a>
+                        </div>
+                    </div>
+                    <div id="middle_banner">
+                        <a href="#" title="saveupto banner link">
+                            <img src="img/banner02.gif" alt="saveupto banner"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="banner_wrap">
+                <div id="bottom_banner">
+                    <a href="#" title="firehost link">
+                        <img src="img/banner03.gif" alt="firehost banner"/>
+                    </a>
+                </div>
+            </div>
+            <div id="footer">
+                <ul>
+                    <li>
+                        <a href="#" title="World News">World News</a>
+                    </li>
+                    <li>
+                        <a href="#" title="Sports">Sports</a>
+                    </li>
+                    <li>
+                        <a href="#" title="Technology">Technology</a>
+                    </li>
+                    <li>
+                        <a href="#" title="Business">Business</a>
+                    </li>
+                    <li>
+                        <a href="#" title="Movies">Movies</a>
+                    </li>
+                    <li>
+                        <a href="#" title="Entertainment">Entertainment</a>
+                    </li>
+                    <li>
+                        <a href="#" title="Culture">Culture</a>
+                    </li>
+                    <li>
+                        <a href="#" title="Books">Books</a>
+                    </li>
+                    <li>
+                        <a href="#" title="Classifieds">Classifieds</a>
+                    </li>
+                    <li>
+                        <a href="#" title="Blogs">Blogs</a>
+                    </li>
+                </ul>
+                <div id="copyright">
+                    <span class="copy">
+                        Copyrightⓒ 2011 The News Reporter Inc. Allrights reserved. Theme Designed By GraphicsFuel.com<br/>
+                        Reproduction in whole or in part in any form or medium without express written permission of The News Reporter Inc. is Prohibited. The trade Marks and images used in the design are the copyright of their respective owners. They are used only for display pupose.
+                    </span>
+                </div>
+            </div>
+        </div>
+   </div>
+</body>
+</html>
